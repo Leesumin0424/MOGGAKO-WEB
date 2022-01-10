@@ -1,0 +1,14 @@
+
+.container {
+    display: flex;
+    flex-flow : row wrap;
+    justify-content: space-around;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 45px;
+    
+}

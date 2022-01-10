@@ -1,0 +1,45 @@
+.green_window{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+input{
+    border: 1px solid green;
+    width: 300px;
+}
+.searchbtn{
+    font-size: 2em;
+    display: inline-block;
+    width: 0.4em;
+    box-sizing: content-box;
+    height: 0.4em;
+    border: 0.1em solid white;
+    position: relative;
+    border-radius: 0.35em;
+}
+.searchbtn::before{
+    content: "";
+    content: "";
+    display: inline-block;
+    position:absolute;
+    right: -0.25em;
+    bottom: -0.1em;
+    border-width: 0;
+    background: white;
+    width: 0.35em;
+    height: 0.08em;
+    transform: rotate(45deg);
+}
+.btnbtn-primary{
+    background: green;
+    margin-left: -5px;
+}
+h1{
+    top:96px;
+    left: 50px;
+    position: absolute;
+    color: green;
+    font-family: 'Hi Melody', cursive;
+    font-family: 'PT Sans Narrow', sans-serif;
+}

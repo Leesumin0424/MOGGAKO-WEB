@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: skyblue;
+}
+.title{
+    text-align: center;
+}
+
+.wrapper{
+    background-color: thistle;
+    width: 80%;
+    margin: 20px;
+    height: 50%;
+    position: relative;
+}
+.main{
+    background-color: white;
+    margin: 10px;
+    width: 450px;
+    height: 200px;
+    border-radius: 20px;
+    top: 10px;
+    position: absolute;
+}
+.main_self{
+    text-align: center;
+    margin: 15px;
+}
+.nicknm{
+    text-align: center;
+}
+.myself{
+    background-color: white;
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    top: 140px;
+    left: 200px;
+    border-radius: 50%;
+    
+}
+.myself > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.myprofile{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    font-size: 9px;
+    line-height: 2.5;
+
+}

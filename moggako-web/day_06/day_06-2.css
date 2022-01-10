@@ -1,0 +1,18 @@
+table{
+    width: 100%;
+    border-top: 1px solid gray;
+    border-collapse: collapse;
+    margin-top: 100px;
+}
+th,td{
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    text-align: center;
+}
+.m1{
+    background-color: yellow;
+}
+.melon{
+    padding-left: 50%;
+    margin: 50px;
+}

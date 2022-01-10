@@ -1,0 +1,35 @@
+
+
+.wrapper{
+
+   
+    position: relative;
+}
+.main{
+    position: absolute;
+}
+.main_self{
+    margin: 15px;
+}
+
+.myself{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    border-radius: 50%;
+    
+}
+.myself > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.myprofile{
+    position: absolute;
+    top: 250px;
+    left: 10px;
+
+}

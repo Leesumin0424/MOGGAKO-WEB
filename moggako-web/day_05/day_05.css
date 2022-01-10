@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+}
+h1{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+
+.chanel{
+    background-color: yellow;
+}
+h1 span:nth-child(1){
+    color: green;
+    font-family: 'Hi Melody', cursive;
+}
+h1 span:nth-child(2){
+    color: skyblue;
+    font-family: 'Hi Melody', cursive;
+}
+p{
+    font-family: 'Hi Melody', cursive;
+}
+
